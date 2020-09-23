@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap');
+
+
 body {
   background: rgb(94,184,154);
+  background-image: url("abeilles.png");
 }
 
-.fullbleed {
+li{
+  color: blue;
+  text-align: center;
+  margin-left: 200px;
+  font-family: 'Noto Sans JP'
+}
+
+.ruche {
   border: 6px yellow solid ;
   width: 100vw;
   margin: 0 ;
@@ -10,7 +22,7 @@ body {
   transform: translateX(-50%);
 }
 
-.fullbleed img{
+.ruche img{
   width: 100% ;
 }
 
@@ -21,8 +33,8 @@ section {
 }
 
 header {
-  background: red;
-  color: white;
+  background: yellow;
+  color: red;
   min-height: 15vh;
 }
 
@@ -31,6 +43,26 @@ header {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 2em;
   text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: grey;
+}
+
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font size: 4em;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+p {
+  font-family: 'Open Sans'
+  margin-top: 70px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.abeilles img{
+  width: 20%;
 }
