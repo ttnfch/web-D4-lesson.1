@@ -1,8 +1,27 @@
-body {
-  background: rgb(94,184,154);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap');
+
+@font-face {
+  font-family: 'Ouroboros-Regular';
+  src: url('Ouroboros-Regular.woff2') format('woff2'),
+       url('Ouroboros-Regular.woff') format('woff'),
+       url('Ouroboros-Regular.ttf') format('truetype');
 }
 
-.fullbleed {
+
+body {
+  background: rgb(94,184,154);
+  background-image: url("abeilles.png");
+}
+
+li{
+  color: blue;
+  text-align: center;
+  margin-left: 200px;
+  font-family: 'Noto Sans JP'
+}
+
+.ruche {
   border: 6px yellow solid ;
   width: 100vw;
   margin: 0 ;
@@ -10,7 +29,7 @@ body {
   transform: translateX(-50%);
 }
 
-.fullbleed img{
+.ruche img{
   width: 100% ;
 }
 
@@ -21,9 +40,9 @@ section {
 }
 
 header {
-  background: red;
-  color: white;
-  min-height: 15vh;
+  background: yellow;
+  color: red;
+  min-height: 6vh;
 }
 
 .navigation {
@@ -31,6 +50,26 @@ header {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 2em;
   text-align: center;
+  font-family: 'Ouroboros-Regular', sans-serif;
+  color: grey;
+}
+
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font size: 4em;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+p {
+  font-family: 'Open Sans';
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.abeilles img{
+  width: 20%;
 }
